@@ -3,9 +3,9 @@ var cc = initCookieConsent();
 
 // run plugin with your configuration
 cc.run({
-    current_lang: 'en',
+    current_lang: 'sk',
     autoclear_cookies: true,                   // default: false
-    theme_css: '<path-to-cookieconsent.css>',  // 🚨 replace with a valid path
+    theme_css: '/sites/default/files/cookieconsent/cookieconsent.css',  // 🚨 replace with a valid path
     page_scripts: true,                        // default: false
 
     // mode: 'opt-in'                          // default: 'opt-in'; value: 'opt-in' or 'opt-out'
@@ -37,7 +37,7 @@ cc.run({
     },
 
     languages: {
-        'en': {
+        'sk': {
             consent_modal: {
                 title: 'We use cookies!',
                 description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <button type="button" data-cc="c-settings" class="cc-link">Let me choose</button>',
