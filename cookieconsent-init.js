@@ -41,7 +41,7 @@ cc.run({
         'sk': {
             consent_modal: {
                 title: 'Používame cookies.',
-                description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <button type="button" data-cc="c-settings" class="cc-link">Let me choose</button>',
+                description: 'táto webová stránka používa nevyhnutné súbory cookie na zabezpečenie správneho fungovania a sledovacie súbory cookie, aby sme pochopili, ako s ňou komunikujete. <button type="button" data-cc="c-settings" class="cc-link">Podrobné nastavenie cookies</button>',
                 primary_btn: {
                     text: 'Prijať všetky',
                     role: 'accept_all'              // 'accept_selected' or 'accept_all'
@@ -52,20 +52,20 @@ cc.run({
                 }
             },
             settings_modal: {
-                title: 'Cookie preferences',
+                title: 'Nastavenia cookies',
                 save_settings_btn: 'Uložiť nastavenia',
                 accept_all_btn: 'Prijať všetky',
                 reject_all_btn: 'Odmietnuť všetky',
                 close_btn_label: 'Zavrieť',
                 cookie_table_headers: [
-                    {col1: 'Name'},
-                    {col2: 'Domain'},
-                    {col3: 'Expiration'},
-                    {col4: 'Description'}
+                    {col1: 'Meno'},
+                    {col2: 'Doména'},
+                    {col3: 'Expirácia'},
+                    {col4: 'Popis'}
                 ],
                 blocks: [
                     {
-                        title: 'Cookie usage 📢',
+                        title: 'Využitie cookies 📢',
                         description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="#" class="cc-link">privacy policy</a>.'
                     }, {
                         title: 'Strictly necessary cookies',
