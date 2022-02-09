@@ -10,7 +10,7 @@ cc.run({
 
     // mode: 'opt-in'                          // default: 'opt-in'; value: 'opt-in' or 'opt-out'
     // delay: 0,                               // default: 0
-    // auto_language: null                     // default: null; could also be 'browser' or 'document'
+    auto_language: document                     // default: null; could also be 'browser' or 'document'
     // autorun: true,                          // default: true
     // force_consent: false,                   // default: false
     // hide_from_bots: false,                  // default: false
