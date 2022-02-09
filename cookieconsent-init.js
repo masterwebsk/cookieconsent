@@ -3,7 +3,8 @@ var cc = initCookieConsent();
 
 // run plugin with your configuration
 cc.run({
-    current_lang: 'sk',
+    // current_lang: 'sk',
+    current_lang: document.documentElement.getAttribute('lang'),
     autoclear_cookies: true,                   // default: false
     theme_css: '/sites/default/files/cookieconsent/cookieconsent.css',  // 🚨 replace with a valid path
     page_scripts: true,                        // default: false
