@@ -20,7 +20,7 @@
         var _config = {
             'mode': 'opt-in',                         // 'opt-in', 'opt-out'
             'current_lang': 'en',
-            'auto_language': null,
+            'auto_language': document,
             'autorun': true,                          // run as soon as loaded
             'cookie_name': 'cc_cookie',
             'cookie_expiration': 182,                 // default: 6 months (in days)
