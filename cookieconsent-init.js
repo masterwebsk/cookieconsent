@@ -42,11 +42,11 @@ cc.run({
                 title: 'Používame cookies.',
                 description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <button type="button" data-cc="c-settings" class="cc-link">Let me choose</button>',
                 primary_btn: {
-                    text: 'Accept all',
+                    text: 'Prijať všetky',
                     role: 'accept_all'              // 'accept_selected' or 'accept_all'
                 },
                 secondary_btn: {
-                    text: 'Reject all',
+                    text: 'Odmietnuť všetky',
                     role: 'accept_necessary'        // 'settings' or 'accept_necessary'
                 }
             },
