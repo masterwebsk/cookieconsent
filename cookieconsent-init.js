@@ -89,7 +89,32 @@ cc.run({
                                 col2: '.youtube.com',
                                 col3: '2 roky',
                                 col4: 'YouTube sets this cookie via embedded youtube-videos and registers anonymous statistical data.',                                
-                            },{
+                            },
+                            {
+                                col1: 'YSC',       // youtube YSC
+                                col2: '.youtube.com',
+                                col3: 'session',
+                                col4: 'YSC cookie is set by Youtube and is used to track the views of embedded videos on Youtube pages.',                                
+                            },
+                            {
+                                col1: 'VISITOR_INFO1_LIVE',       // youtube VISITOR_INFO1_LIVE
+                                col2: '.youtube.com',
+                                col3: '2 roky',
+                                col4: 'A cookie set by YouTube to measure bandwidth that determines whether the user gets the new or old player interface.',                                
+                            },
+                            {
+                                col1: 'yt-remote-device-id',       // youtube yt-remote-device-id
+                                col2: '.youtube.com',
+                                col3: 'never',
+                                col4: 'YouTube sets this cookie to store the video preferences of the user using embedded YouTube video.',                                
+                            },
+                            {
+                                col1: 'yt-remote-connected-devices',       // youtube yt-remote-connected-devices
+                                col2: '.youtube.com',
+                                col3: 'never',
+                                col4: 'YouTube sets this cookie to store the video preferences of the user using embedded YouTube video.',                                
+                            },
+                            {
                                 col1: '^_ga',       // match all cookies starting with "_ga"
                                 col2: 'google.com',
                                 col3: '2 years',
