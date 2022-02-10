@@ -126,6 +126,13 @@ cc.run({
                                 col2: 'google.com',
                                 col3: '1 day',
                                 col4: 'description ...',
+                            },
+                            {
+                                col1: '^_gtag^',
+                                col2: 'google.com',
+                                col3: '1 day',
+                                col4: 'description ...',
+                                is_regex: true
                             }
                         ]
                     }, {
