@@ -15,7 +15,7 @@ cc.run({
     // autorun: true,                          // default: true
     // force_consent: false,                   // default: false
     // hide_from_bots: false,                  // default: false
-    // remove_cookie_tables: false             // default: false
+    remove_cookie_tables: true,             // default: false
     // cookie_name: 'cc_cookie',               // default: 'cc_cookie'
     // cookie_expiration: 182,                 // default: 182 (days)
     // cookie_necessary_only_expiration: 182   // default: disabled
