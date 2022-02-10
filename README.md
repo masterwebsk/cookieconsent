@@ -1,3 +1,20 @@
+# Cookieconsent (by orestbida)
+
+This is a fork of orestbida cookieconsent script. I make this with little customisation to usage for Drupal sites. Any usage on your own risk.
+
+There will be 5 languages in init file and language detection. Will work just if you have correctly set document language.
+
+## Installation
+
+Clone repository somewhere. In my case is it in files root.
+
+```bash
+cd sites/default/files
+git clone https://github.com/masterwebsk/cookieconsent.git
+```
+If you choose another location, change path in init file and of course path to script ect in next steps.
+
+
 # cookieconsent
 orestbida cookieconsent clone - USE JUST IF YOU UNDERSTAND WHAT ARE YOU DOING :)
 ## Installation & Usage
