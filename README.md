@@ -6,7 +6,7 @@ There will be 5 languages in `cookieconsent-init.js` file. Language detection wi
 
 ## Installation
 
-Clone repository somewhere. In my case is it in files root.
+Clone repository somewhere. In my case is it files root.
 
 ```bash
 cd sites/default/files
