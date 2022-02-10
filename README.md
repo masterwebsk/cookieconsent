@@ -1,8 +1,8 @@
 # Cookieconsent (by orestbida)
 
-This is a fork of orestbida cookieconsent script. I make this with little customisation to usage for Drupal sites. Any usage on your own risk.
+This is a fork of orestbida cookieconsent script. I made this with little customisation to usage for Drupal sites. Any usage on your own risk.
 
-There will be 5 languages in init file and language detection. Will work just if you have correctly set document language.
+There will be 5 languages in `cookieconsent-init.js` file. Language detection will work just if you have correctly set document language.
 
 ## Installation
 
@@ -14,50 +14,23 @@ git clone https://github.com/masterwebsk/cookieconsent.git
 ```
 If you choose another location, change path in init file and of course path to script ect in next steps.
 
+Configure the plugin inside `cookieconsent-init.js`
 
-# cookieconsent
-orestbida cookieconsent clone - USE JUST IF YOU UNDERSTAND WHAT ARE YOU DOING :)
-## Installation & Usage
-1. Download the [latest release](https://github.com/orestbida/cookieconsent/releases/latest) or use via CDN or [NPM](https://www.npmjs.com/package/vanilla-cookieconsent)
+If you want fresh or original files go to author url - [https://github.com/orestbida/cookieconsent](https://github.com/orestbida/cookieconsent)
 
-    ```bash
-    # CDN links
-    https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.js
-    https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.css
-    ```
+## Usage
 
-    Thanks to [Till Sanders](https://github.com/tillsanders) for bringing the plugin on npm.
+This can be done by several ways. In site template or via pasting code into block.
+```html
+<script defer src="/sites/default/files/cookieconsent/cookieconsent.js"></script>
+<script defer src="/sites/default/files/cookieconsent/cookieconsent-init.js"></script>
+<a href="javascript:void(0);" aria-haspopup="dialog" data-cc="c-settings">🍪 Change cookies settings</a>
+```
 
-    ```bash
-    npm i vanilla-cookieconsent
-    yarn add vanilla-cookieconsent
-    ```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-1. Import the plugin: add a `script` tag pointing to `cookieconsent.js`
-    ```html
-    <html>
-        <head> <!-- head content --> </head>
-        <body>
-            <!-- body content -->
-            <script defer src="<path-to-cookieconsent.js>"></script>
-        </body>
-    </html>
-    ```
-    <span>Note: replace `<path-to-cookieconsent.js>` with a valid path!</span>
-    <br>
+Please make sure to update tests as appropriate.
 
-3. Configure and run
-    -   <details><summary>As external script</summary>
-        <p>
-
-        - Create a `.js` file (e.g. `cookieconsent-init.js`) and import it in your html page
-
-            ```html
-            <body>
-                <!-- body content ... -->
-                <script defer src="<path-to-cookieconsent.js>"></script>
-                <script defer src="<path-to-cookieconsent-init.js>"></script>
-            <body>
-            ```
-
-        - Configure the plugin inside `cookieconsent-init.js`
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
