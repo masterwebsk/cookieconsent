@@ -68,16 +68,16 @@ cc.run({
                         title: 'Využitie cookies 📢',
                         description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="#" class="cc-link">privacy policy</a>.'
                     }, {
-                        title: 'Strictly necessary cookies',
-                        description: 'These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly',
+                        title: 'Nevyhnutné cookies',
+                        description: 'Tieto cookies sú nevyhnutné pre správne fungovanie tejto webovej stránky. Bez týchto cookies by webová stránka nefungovala správne.',
                         toggle: {
                             value: 'necessary',
                             enabled: true,
                             readonly: true          // cookie categories with readonly=true are all treated as "necessary cookies"
                         }
                     }, {
-                        title: 'Performance and Analytics cookies',
-                        description: 'These cookies allow the website to remember the choices you have made in the past',
+                        title: 'Výkonnostné a analytické súbory cookie',
+                        description: 'Tieto súbory cookie umožňujú webovej stránke zapamätať si voľby, ktoré ste urobili v minulosti.',
                         toggle: {
                             value: 'analytics',     // your cookie category
                             enabled: false,
@@ -85,6 +85,11 @@ cc.run({
                         },
                         cookie_table: [             // list of all expected cookies
                             {
+                                col1: 'CONSENT',       // youtube CONSENT
+                                col2: '.youtube.com',
+                                col3: '2 roky',
+                                col4: 'YouTube sets this cookie via embedded youtube-videos and registers anonymous statistical data.',                                
+                            },{
                                 col1: '^_ga',       // match all cookies starting with "_ga"
                                 col2: 'google.com',
                                 col3: '2 years',
