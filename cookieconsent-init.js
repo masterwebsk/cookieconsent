@@ -128,7 +128,7 @@ cc.run({
                                 col4: 'description ...',
                             },
                             {
-                                col1: '^_gtag^',
+                                col1: '_gat_gtag_UA_72236234_12',
                                 col2: 'google.com',
                                 col3: '1 day',
                                 col4: 'description ...',
