@@ -122,13 +122,13 @@ cc.run({
                                 is_regex: true
                             },
                             {
-                                col1: '_gid',
+                                col1: '_gid',       // GTAG
                                 col2: 'google.com',
                                 col3: '1 day',
                                 col4: 'description ...',
                             },
                             {
-                                col1: '^_gtag^',
+                                col1: '^_gtag^',       // GTAG
                                 col2: 'google.com',
                                 col3: '1 day',
                                 col4: 'description ...',
